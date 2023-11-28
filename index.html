@@ -12,6 +12,9 @@
     <link
         href="https://fonts.googleapis.com/css2?family=DM+Sans:opsz,wght@9..40,300;9..40,400;9..40,500;9..40,600;9..40,700;9..40,800;9..40,900&display=swap"
         rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+        integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
     <!-- link css -->
     <link rel="stylesheet" href="./assets/css/reset.css">
     <link rel="stylesheet" href="./assets/css/grid.css">
@@ -190,6 +193,7 @@
                 </div>
             </section>
         </div>
+        <!-- projects -->
         <section class="projects">
             <div class="container">
                 <section class="projects__inner">
@@ -275,11 +279,65 @@
                             </div>
                         </div>
                     </section>
+                    <div class="row">
+                        <div class="col-xl-12">
+                            <button class="projects__cta">
+                                <a href="#!" class="projects__link">All Projects</a>
+                            </button>
+                        </div>
+                    </div>
                 </section>
 
             </div>
         </section>
+        <!--About-->
+        <div class="container">
+            <section class="about">
+                <div class="row">
+                    <div class="col col-xl-12">
+                        <section class="about-wrap__heading">
+                            <div class="about__hey">
+                                <p class="about__desc-hey">Hey,,,,It’s Arif</p>
+                                <img src="./assets/icons/hey.svg" alt="" class="about__img-head">
+                            </div>
+                            <h3 class="about__heading">Interactive Designer</h3>
+                            <p class="about__desc">Lorem ipsum dolor sit amet, consectetur adipiscing elit. In urna, non
+                                nisl tincidunt ut elementum turpis.</p>
+                        </section>
+                    </div>
+                </div>
+                <div class="about__wrap-quantity">
+                    <div class="about__item-quantity">
+                        <span class="about-item__quantity"> <b class="about-item__emphasize">08+</b></span>
+                        <p class="about-item_desc-quantity">Years Experience</p>
+                    </div>
+                    <div class="about__item-quantity">
+                        <span class="about-item__quantity"> <b class="about-item__emphasize">21+</b></span>
+                        <p class="about-item_desc-quantity">Years Experience</p>
+                    </div>
+                    <div class="about__item-quantity">
+                        <span class="about-item__quantity"> <b class="about-item__emphasize">08+</b></span>
+                        <p class="about-item_desc-quantity">Years Experience</p>
+                    </div>
+                </div>
+                <div class="about__media">
+                    <div class="about__wrap-media">
+                        <div class="media-overlay"></div>
+                        <video  class="about__video"
+                            src="./assets/video/BTS (방탄소년단) 'FAKE LOVE' Orchestral Cover (1).mp4" controls loop>
+                        </video>
+                        <button class="about__btn">
+                          <i class="fa-solid fa-play about__video-play"></i>
+                          <i class="fa-solid fa-pause about__video-pause"></i>
+                        </button> 
+                        
+                    </div>
+                </div>
+
+            </section>
+        </div>
     </main>
+    <script src="./main.js"></script>
 </body>
 
 </html>
