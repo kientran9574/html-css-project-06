@@ -1,0 +1,125 @@
+/* PC*/
+@media screen and (min-width:992px) {
+    .header-top {
+        display: none;
+    }
+
+
+    .mobile-header{
+        display: none;
+    }
+}
+
+/* TABLET AND MOBLIE*/
+@media screen and (max-width:991.88px) {
+   
+}
+
+/* tablet*/
+@media screen and (min-width:768px) and (max-width: 991px) {
+    .header-top {
+        display: none;
+    }
+
+
+    .mobile-header{
+        display: none;
+    }   
+}
+
+/* moblie*/
+@media screen and (max-width:767.98px) {
+    .header {
+        margin: 20px 20px 0 20px !important;
+        padding-top: 0px !important;
+        padding-right: 20px;
+        border-bottom: 1px solid #ccc;
+    }
+
+    .header-top {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+     
+    }
+
+    .header__interactive {
+        gap: 10px !important;
+    }
+
+    .on-tablet-moblie {
+        display: block;
+        position: unset;
+        width: 100px;
+        height: 100px;
+    }
+
+    .header-inner {
+        display: none !important;
+    }
+
+    .header__btn-bars {
+        width: 46px;
+        height: 46px;
+        border-radius: 50%;
+        border: 1px solid #5c3bee21;
+        background: transparent;
+    }
+
+    .icon__bars {
+        color: #5D3BEE;
+    }
+
+    .on-img-tablet-moblie {
+        width: 46px;
+        height: 46px;
+    }
+
+    .menu-overlay {
+        position: fixed;
+        inset: 0;
+        background-color: rgba(0, 0, 0, 0.3);
+        z-index: 2;
+        opacity: 0;
+        visibility: hidden;
+        transition: all 0.5s ease;
+    }
+    
+
+    .menu-overlay.show {
+        opacity: 1;
+        visibility: visible;
+    }
+
+    .menu-drawer {
+        position: fixed;
+        top: 0;
+        right: 0;
+        left: 40%;
+        bottom: 0;
+        background-color: #fff;
+        z-index: 2;
+        transform: translateX(100%);
+    }
+    .menu-drawer.active{
+        transition: all 0.5s ease;
+        transform: translateX(0);
+    }
+    .icon__off {
+      font-size: 5.6rem;
+      padding: 20px 28px 20px 28px;
+    }
+    .header__list{
+        text-align: center  ;
+    }
+    .header-item{
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        row-gap: 20px;
+    }
+    .header-item > .header-item__link{
+        font-size: 3.6rem
+    }
+ 
+}
